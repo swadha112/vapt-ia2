@@ -1,0 +1,203 @@
+Last login: Sat Feb  8 17:40:38 on console
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % brew install python3
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+aqtinstall                    cloud-provider-kind           gdtoolkit                     icann-rdap                    martin                        postgresql-hll                text-embeddings-inference
+behaviortree.cpp              dud                           gnome-builder                 lazysql                       pgbackrest                    scryer-prolog
+catgirl                       evil-helix                    hypopg                        libcdio-paranoia              pgrx                          sdl3_image
+==> New Casks
+chatwise                      cherry-studio                 gpt4all                       ik-product-manager            oracle-jdk-javadoc@21         turbotax-2024                 vernier-spectral-analysis
+
+You have 12 outdated formulae installed.
+
+python@3.13 3.13.1 is already installed but outdated (so it will be upgraded).
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.2
+######################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for python@3.13: ca-certificates, sqlite and xz
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-12-31
+######################################################################################################################################################################################################### 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:414ada64e60703cd4e9aa97f36e29c1a7ec73d60862b5219b8110731fcfd2cb7
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.48.0
+######################################################################################################################################################################################################### 100.0%
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:56459499fcb30c412b34069af462affba6150a684684b747a7696fb96bd6afe5
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.6.4
+######################################################################################################################################################################################################### 100.0%
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:b49f3559f9425b0a8c8de8806b2162d757196c06d4043e65c6654e88cdac15e0
+######################################################################################################################################################################################################### 100.0%
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:166ed4ffa110e57196cade5512bd7f5d27ce5c2c386c8abd416b8fcf3f0e1683
+######################################################################################################################################################################################################### 100.0%
+==> Upgrading python3
+  3.13.1 -> 3.13.2 
+==> Installing dependencies for python@3.13: ca-certificates, sqlite and xz
+==> Installing python@3.13 dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-12-31
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/c41a485689e1507291617fb1f0e2322a087064960638fd050663df867bf53928--ca-certificates-2024-12-31.bottle_manifest.json
+==> Pouring ca-certificates--2024-12-31.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2024-12-31: 4 files, 233.9KB
+==> Installing python@3.13 dependency: sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.48.0
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/7a63b9acdf9ca49e2b2210a457922c9e0b8953abfa8674fcb0e2ded21d0e2c53--sqlite-3.48.0.bottle_manifest.json
+==> Pouring sqlite--3.48.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.48.0: 12 files, 4.9MB
+==> Installing python@3.13 dependency: xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.6.4
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/d14e84095418591f4112922f1a834dbac6c7e4fdc334eae0aaff35e2b860cc5b--xz-5.6.4.bottle_manifest.json
+==> Pouring xz--5.6.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.6.4: 96 files, 2.0MB
+==> Installing python@3.13
+==> Pouring python@3.13--3.13.2.arm64_sequoia.bottle.tar.gz
+==> /opt/homebrew/Cellar/python@3.13/3.13.2/bin/python3.13 -Im ensurepip
+==> /opt/homebrew/Cellar/python@3.13/3.13.2/bin/python3.13 -Im pip install -v --no-index --upgrade --isolated --target=/opt/homebrew/lib/python3.13/site-packages /opt/homebrew/Cellar/python@3.13/3.13.2/Framew
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.2: 3,274 files, 65.4MB
+==> Running `brew cleanup python@3.13`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.1... (3,314 files, 66.0MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.1... (20.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/python@3.13--3.13.1... (15.5MB)
+==> Upgrading 4 dependents of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+certifi 2024.8.30_1 -> 2025.1.31, fastapi 0.115.6 -> 0.115.8, node 23.3.0 -> 23.7.0, uvicorn 0.32.1 -> 0.34.0
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2025.1.31
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fastapi/manifests/0.115.8
+######################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for fastapi: certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2025.1.31
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/a73a70af4149dfe7b8bd11cd9a16aecdd7ad4ac5fe95d74044adb8cd249e070f--certifi-2025.1.31.bottle_manifest.json
+==> Fetching certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/blobs/sha256:1dc3a71ee0b857af77f190a83822b03cddb39f3c8834bfd2079e6e6fe10f64b4
+######################################################################################################################################################################################################### 100.0%
+==> Fetching fastapi
+==> Downloading https://ghcr.io/v2/homebrew/core/fastapi/blobs/sha256:3bd7343a6a31af899e77b3898c96d58b9d1b39a60eb1a67c4a04eb08c8276a01
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/node/manifests/23.7.0
+######################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for node: c-ares and libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.34.4
+######################################################################################################################################################################################################### 100.0%
+==> Fetching c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/blobs/sha256:1db34e25cf5af8441aa0cf479f1ca4330e031d2a35ed3b717563b1f1a1104cf4
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.50.0
+######################################################################################################################################################################################################### 100.0%
+==> Fetching libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:9a70ed97116c4960f0484159c07145df8e768b1a62be68c071070869ba4c3644
+######################################################################################################################################################################################################### 100.0%
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:fa212d020ebe27ec7b9ab94acacf723a68a44b4df05605d20fbcd400c954d2b5
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/uvicorn/manifests/0.34.0
+######################################################################################################################################################################################################### 100.0%
+==> Upgrading fastapi
+  0.115.6 -> 0.115.8 
+==> Installing dependencies for fastapi: certifi
+==> Installing fastapi dependency: certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2025.1.31
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/a73a70af4149dfe7b8bd11cd9a16aecdd7ad4ac5fe95d74044adb8cd249e070f--certifi-2025.1.31.bottle_manifest.json
+==> Pouring certifi--2025.1.31.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2025.1.31: 27 files, 26.8KB
+==> Installing fastapi
+==> Pouring fastapi--0.115.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fastapi/0.115.8: 1,485 files, 21.3MB
+==> Running `brew cleanup fastapi`...
+Removing: /opt/homebrew/Cellar/fastapi/0.115.6... (1,456 files, 20.6MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/fastapi_bottle_manifest--0.115.6... (17.4KB)
+==> Upgrading node
+  23.3.0 -> 23.7.0 
+==> Installing dependencies for node: c-ares and libuv
+==> Installing node dependency: c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.34.4
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/ce18ea81ad6f8aa82ed3f311879deb7643a3d71e18776db6bc86995282d330f3--c-ares-1.34.4.bottle_manifest.json
+==> Pouring c-ares--1.34.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/c-ares/1.34.4: 176 files, 1MB
+==> Installing node dependency: libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.50.0
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/ca8434864835c568bb3ff09b90797e9c2b745beacbd73320a6c22611a4fd1b56--libuv-1.50.0.bottle_manifest.json
+==> Pouring libuv--1.50.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libuv/1.50.0: 20 files, 1.2MB
+==> Installing node
+==> Pouring node--23.7.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/23.7.0: 2,602 files, 70.6MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/23.3.0... (2,676 files, 87.6MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/node_bottle_manifest--23.3.0... (16.1KB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!
+==> Caveats
+==> python@3.13
+Python is installed as
+  /opt/homebrew/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+See: https://docs.brew.sh/Homebrew-and-Python
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % brew install git
+git 2.47.1 is already installed but outdated (so it will be upgraded).
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.48.1
+######################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for git: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.23.1
+######################################################################################################################################################################################################### 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:9179f473099573a8c4a42f70e39f1a36376914d6b634e0975b5cb514dcecb4ee
+######################################################################################################################################################################################################### 100.0%
+==> Fetching git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:93411cd96da6dceec87bf10ebbd97d28f175628bef0cb277ca9609c2cff37569
+######################################################################################################################################################################################################### 100.0%
+==> Upgrading git
+  2.47.1 -> 2.48.1 
+==> Installing dependencies for git: gettext
+==> Installing git dependency: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.23.1
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/a5b6ba6453cc31731ac67fb3d0075d98ab572a913f3e740b54a86d79906f360e--gettext-0.23.1.bottle_manifest.json
+==> Pouring gettext--0.23.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.23.1: 2,052 files, 22.2MB
+==> Installing git
+==> Pouring git--2.48.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.48.1: 1,699 files, 54.8MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/git/2.47.1... (1,685 files, 54.4MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/git_bottle_manifest--2.47.1... (14.9KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/git--2.47.1... (19.3MB)
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % 

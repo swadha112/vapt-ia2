@@ -1,0 +1,336 @@
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % brew install openssl readline libpq libxml2 libxslt zlib libiconv
+
+Warning: openssl@3 3.4.0 is already installed and up-to-date.
+To reinstall 3.4.0, run:
+  brew reinstall openssl@3
+Warning: readline 8.2.13 is already installed and up-to-date.
+To reinstall 8.2.13, run:
+  brew reinstall readline
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/manifests/17.2
+######################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for libpq: krb5
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.21.3
+######################################################################################################################################################################################################### 100.0%
+==> Fetching krb5
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:75d0ce70b754c159e642f7e9afff27add08203423792f34c240a20ea014bfcec
+######################################################################################################################################################################################################### 100.0%
+==> Fetching libpq
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/blobs/sha256:19a546873543dc5f5f371e58189b78d271572c004439a91adee9197304fa0d58
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libxml2/manifests/2.13.5-1
+######################################################################################################################################################################################################### 100.0%
+==> Fetching libxml2
+==> Downloading https://ghcr.io/v2/homebrew/core/libxml2/blobs/sha256:4d0ac59958e6419780e35d2fffbec29e5bd1d3ba362c96c75fee9189a7440258
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libxslt/manifests/1.1.42_1
+######################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for libxslt: libgpg-error and libgcrypt
+==> Downloading https://ghcr.io/v2/homebrew/core/libgpg-error/manifests/1.51
+######################################################################################################################################################################################################### 100.0%
+==> Fetching libgpg-error
+==> Downloading https://ghcr.io/v2/homebrew/core/libgpg-error/blobs/sha256:7db996510272893e4db9cd536e65e7fa6d0f20c4dbef13c55e95a3ebab67d103
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libgcrypt/manifests/1.11.0
+######################################################################################################################################################################################################### 100.0%
+==> Fetching libgcrypt
+==> Downloading https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:d6010619edaf0b17877797dc4beb14c1ccb423833e864bf9e2990cf4c21373ce
+######################################################################################################################################################################################################### 100.0%
+==> Fetching libxslt
+==> Downloading https://ghcr.io/v2/homebrew/core/libxslt/blobs/sha256:1e5743ac455f3135b1238d5bfc26860f5421093761b7c6974579d9db6dbd68d8
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zlib/manifests/1.3.1
+######################################################################################################################################################################################################### 100.0%
+==> Fetching zlib
+==> Downloading https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:a801a93f88dba4df7319e46cd9ea5939351e73f7aa62a5153a2f7a0b0d79404d
+######################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libiconv/manifests/1.18
+######################################################################################################################################################################################################### 100.0%
+==> Fetching libiconv
+==> Downloading https://ghcr.io/v2/homebrew/core/libiconv/blobs/sha256:9e1ae85546acf11cfebe7552c70808a9b19418229726501f2bb7b3bceee47966
+######################################################################################################################################################################################################### 100.0%
+==> Installing dependencies for libpq: krb5
+==> Installing libpq dependency: krb5
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.21.3
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/c5793441ca90aa09420dddd84f19d4aaf86da4f0b3f60c84940d77b1cb4c6863--krb5-1.21.3.bottle_manifest.json
+==> Pouring krb5--1.21.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/krb5/1.21.3: 163 files, 5.6MB
+==> Installing libpq
+==> Pouring libpq--17.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+libpq is keg-only, which means it was not symlinked into /opt/homebrew,
+because conflicts with postgres formula.
+
+If you need to have libpq first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find libpq you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
+==> Summary
+🍺  /opt/homebrew/Cellar/libpq/17.2: 2,391 files, 32.4MB
+==> Running `brew cleanup libpq`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Pouring libxml2--2.13.5.arm64_sequoia.bottle.1.tar.gz
+==> Caveats
+libxml2 is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have libxml2 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/libxml2/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find libxml2 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/libxml2/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/libxml2/include"
+==> Summary
+🍺  /opt/homebrew/Cellar/libxml2/2.13.5: 135 files, 6.2MB
+==> Running `brew cleanup libxml2`...
+==> Installing dependencies for libxslt: libgpg-error and libgcrypt
+==> Installing libxslt dependency: libgpg-error
+==> Downloading https://ghcr.io/v2/homebrew/core/libgpg-error/manifests/1.51
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/e7b7f2687086f9cee941cfee0b9d8c83d606b04d85698c55b10eb7a17d2c6bd2--libgpg-error-1.51.bottle_manifest.json
+==> Pouring libgpg-error--1.51.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgpg-error/1.51: 50 files, 1.7MB
+==> Installing libxslt dependency: libgcrypt
+==> Downloading https://ghcr.io/v2/homebrew/core/libgcrypt/manifests/1.11.0
+Already downloaded: /Users/swadhakhatod/Library/Caches/Homebrew/downloads/1a97cffc3d55ded961cbc89c68edd680c5b12b816a2fc19e30ff3f7cece070e6--libgcrypt-1.11.0.bottle_manifest.json
+==> Pouring libgcrypt--1.11.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgcrypt/1.11.0: 24 files, 3.7MB
+==> Installing libxslt
+==> Pouring libxslt--1.1.42_1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To allow the nokogiri gem to link against this libxslt run:
+  gem install nokogiri -- --with-xslt-dir=/opt/homebrew/opt/libxslt
+
+libxslt is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have libxslt first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/libxslt/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find libxslt you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/libxslt/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/libxslt/include"
+==> Summary
+🍺  /opt/homebrew/Cellar/libxslt/1.1.42_1: 100 files, 1.3MB
+==> Running `brew cleanup libxslt`...
+==> Pouring zlib--1.3.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+zlib is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+For compilers to find zlib you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/zlib/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/zlib/include"
+==> Summary
+🍺  /opt/homebrew/Cellar/zlib/1.3.1: 14 files, 403.9KB
+==> Running `brew cleanup zlib`...
+==> Pouring libiconv--1.18.arm64_sequoia.bottle.tar.gz
+==> Caveats
+libiconv is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have libiconv first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/libiconv/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find libiconv you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/libiconv/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/libiconv/include"
+==> Summary
+🍺  /opt/homebrew/Cellar/libiconv/1.18: 32 files, 2.8MB
+==> Running `brew cleanup libiconv`...
+==> Caveats
+==> libpq
+libpq is keg-only, which means it was not symlinked into /opt/homebrew,
+because conflicts with postgres formula.
+
+If you need to have libpq first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find libpq you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
+==> libxml2
+libxml2 is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have libxml2 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/libxml2/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find libxml2 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/libxml2/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/libxml2/include"
+==> libxslt
+To allow the nokogiri gem to link against this libxslt run:
+  gem install nokogiri -- --with-xslt-dir=/opt/homebrew/opt/libxslt
+
+libxslt is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have libxslt first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/libxslt/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find libxslt you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/libxslt/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/libxslt/include"
+==> zlib
+zlib is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+For compilers to find zlib you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/zlib/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/zlib/include"
+==> libiconv
+libiconv is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have libiconv first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/libiconv/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find libiconv you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/libiconv/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/libiconv/include"
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % brew install metasploit
+
+==> Caveats
+metasploit is built for Intel macOS and so requires Rosetta 2 to be installed.
+You can install Rosetta 2 with:
+  softwareupdate --install-rosetta --agree-to-license
+Note that it is very difficult to remove Rosetta 2 once it is installed.
+
+==> Downloading https://osx.metasploit.com/metasploit-framework-6.4.49-20250208112851.git.2.ff7f95e-1rapid7-1.x86_64.pkg
+######################################################################################################################################################################################################### 100.0%
+==> Installing dependencies: liblinear, libssh2, lua, nmap
+==> Downloading https://ghcr.io/v2/homebrew/core/liblinear/manifests/2.48
+######################################################################################################################################################################################################### 100.0%
+==> Fetching liblinear
+==> Downloading https://ghcr.io/v2/homebrew/core/liblinear/blobs/sha256:c8c537286177821c0bd2d45919a47cc842c789fff679b2f054e5adc008edf228
+######################################################################################################################################################################################################### 100.0%
+==> Installing liblinear
+==> Pouring liblinear--2.48.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/liblinear/2.48: 10 files, 326.6KB
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/manifests/1.11.1
+######################################################################################################################################################################################################### 100.0%
+==> Fetching libssh2
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/blobs/sha256:4fd55e8973a9454001ac289972767ca8927f3639aa44715aa1e9ba81c3712245
+######################################################################################################################################################################################################### 100.0%
+==> Installing libssh2
+==> Pouring libssh2--1.11.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.11.1: 201 files, 1.2MB
+==> Downloading https://ghcr.io/v2/homebrew/core/lua/manifests/5.4.7
+######################################################################################################################################################################################################### 100.0%
+==> Fetching lua
+==> Downloading https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:925b155912162179d777cde03b60fdd8b5507f0bfc3c7adf2f7a49e1b3b00461
+######################################################################################################################################################################################################### 100.0%
+==> Installing lua
+==> Pouring lua--5.4.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lua/5.4.7: 30 files, 789.6KB
+==> Downloading https://ghcr.io/v2/homebrew/core/nmap/manifests/7.95_1
+######################################################################################################################################################################################################### 100.0%
+==> Fetching nmap
+==> Downloading https://ghcr.io/v2/homebrew/core/nmap/blobs/sha256:61a83d0390628d2667adca2335d9093a2f6d11a9501f40ed81c56fef82577ad4
+######################################################################################################################################################################################################### 100.0%
+==> Installing nmap
+==> Pouring nmap--7.95_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/nmap/7.95_1: 835 files, 28.0MB
+==> Installing Cask metasploit
+==> Running installer for metasploit with sudo; the password may be necessary.
+Password:
+
+swadha112
+installer: Package name is Metasploit-framework
+installer: Installing at base path /
+installer: The install was successful.
+==> Linking Binary 'msfd' to '/opt/homebrew/bin/msfd'
+==> Linking Binary 'msfdb' to '/opt/homebrew/bin/msfdb'
+==> Linking Binary 'msfelfscan' to '/opt/homebrew/bin/msfelfscan'
+==> Linking Binary 'msfmachscan' to '/opt/homebrew/bin/msfmachscan'
+==> Linking Binary 'msfrpc' to '/opt/homebrew/bin/msfrpc'
+==> Linking Binary 'msfrpcd' to '/opt/homebrew/bin/msfrpcd'
+==> Linking Binary 'msfvenom' to '/opt/homebrew/bin/msfvenom'
+==> Linking Binary 'msfpescan' to '/opt/homebrew/bin/msfpescan'
+==> Linking Binary 'msfbinscan' to '/opt/homebrew/bin/msfbinscan'
+==> Linking Binary 'msfrop' to '/opt/homebrew/bin/msfrop'
+==> Linking Binary 'msfconsole' to '/opt/homebrew/bin/msfconsole'
+🍺  metasploit was successfully installed!
+==> Caveats
+==> metasploit
+metasploit is built for Intel macOS and so requires Rosetta 2 to be installed.
+You can install Rosetta 2 with:
+  softwareupdate --install-rosetta --agree-to-license
+Note that it is very difficult to remove Rosetta 2 once it is installed.
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % 
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % swadha112
+zsh: command not found: swadha112
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % msfconsole
+
+
+ ** Welcome to Metasploit Framework Initial Setup **
+    Please answer a few questions to get started.
+
+
+Would you like to use and setup a new database (recommended)? Yes
+
+Running the 'init' command for the database:
+Creating database at /Users/swadhakhatod/.msf4/db
+Creating db socket file at /var/folders/kn/05tgchr155nf8vg5q5lkh38w0000gn/T
+Starting database at /Users/swadhakhatod/.msf4/db...waiting for server to start.... done
+server started
+success
+Creating database users
+Writing client authentication configuration file /Users/swadhakhatod/.msf4/db/pg_hba.conf
+Stopping database at /Users/swadhakhatod/.msf4/db
+Starting database at /Users/swadhakhatod/.msf4/db...waiting for server to start.... done
+server started
+success
+Creating initial database schema
+Database initialization successful
+
+ ** Metasploit Framework Initial Setup Complete **
+
+Metasploit tip: You can pivot connections over sessions started with the 
+ssh_login modules
+                                                  
+
+ ______________________________________________________________________________
+|                                                                              |
+|                          3Kom SuperHack II Logon                             |
+|______________________________________________________________________________|
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                 User Name:          [   security    ]                        |
+|                                                                              |
+|                 Password:           [               ]                        |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                   [ OK ]                                     |
+|______________________________________________________________________________|
+|                                                                              |
+|                                                       https://metasploit.com |
+|______________________________________________________________________________|
+
+
+       =[ metasploit v6.4.49-dev-300e99db0101791908b12a3b5033e3bdd6c093ef]
++ -- --=[ 2491 exploits - 1283 auxiliary - 393 post       ]
++ -- --=[ 1463 payloads - 49 encoders - 13 nops           ]
++ -- --=[ 9 evasion                                       ]
+
+Metasploit Documentation: https://docs.metasploit.com/
+
+msf6 > 
+msf6 > Interrupt: use the 'exit' command to quit
+msf6 > exit
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % which msfconsole
+
+/opt/homebrew/bin/msfconsole
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % 
